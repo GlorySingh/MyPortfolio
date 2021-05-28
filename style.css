@@ -1,0 +1,274 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+body {
+  height: 100%;
+  background-image: linear-gradient(
+    to right,
+    #b8cbb8 0%,
+    #b8cbb8 0%,
+    #b465da 0%,
+    #cf6cc9 33%,
+    #ee609c 66%,
+    #ee609c 100%
+  );
+  padding: 5rem 8rem;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  height: 55vh;
+  margin-bottom: 50px;
+  color: white;
+}
+
+.intro img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.intro h1 {
+  font-size: 48px;
+}
+
+.intro p {
+  font-size: 22px;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 4px;
+  color: rgb(44, 44, 44);
+  box-shadow: 0 4px 20px rgba(49, 49, 49, 0.397);
+}
+
+.main-content nav {
+  display: flex;
+  background-color: rgb(232, 231, 248);
+  padding: 22px;
+  justify-content: center;
+  gap: 100px;
+  border-radius: 4px 4px 0 0;
+}
+
+.main-content nav a {
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(44, 44, 44);
+  padding: 5px 20px;
+  border-radius: 6px;
+}
+
+.main-content nav a:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+.about-me {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 4rem;
+}
+
+.about-me-text {
+  display: flex;
+  flex-direction: column;
+  gap:2rem;
+}
+
+.about-me h1 {
+  font-size: 30px;
+  color: #6b6666;
+}
+
+.underline {
+  margin-top: 15px;
+  width: 100px;
+  height: 1.5px;
+  background-image: linear-gradient(
+    to right,
+    #b8cbb8 0%,
+    #b8cbb8 0%,
+    #b465da 0%,
+    #cf6cc9 33%,
+    #ee609c 66%,
+    #ee609c 100%
+  );
+}
+
+.about-me-text p {
+  width: 480px;
+}
+
+.outer-circle {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 2px solid rgb(232, 231, 248);
+  padding: 12.5px;
+}
+
+.about-me img {
+  width: 270px;
+  height: 270px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem 4rem;
+}
+
+.projects h1 {
+  font-size: 30px;
+  color:#6b6666;
+}
+.projects-title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projects-desc {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  gap: 3rem;
+}
+
+.project {
+  display: flex;
+  align-items: center;
+  gap:3rem;
+}
+
+.project-info {
+  width: 620px;
+}
+
+.project-info a {
+  margin: 10px 0;
+  display: block;
+  text-decoration: none;
+}
+
+.outer-circle2 {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 2px solid rgb(232, 231, 248);
+  padding: 12.5px;
+}
+
+.achvmts {
+  display: flex;
+  flex-direction: column;
+}
+
+.achievements-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.achievements-title h2 {
+  font-size: 30px;
+  color: #6b6666;
+}
+
+.card-box  {
+  margin: 50px 0 100px 0;
+  display: flex;
+  gap: 5rem;
+  justify-content: center;
+}
+
+.achvmt-img {
+  width: 60px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+  gap: 2rem;
+  background-color: #fff1fb;
+  color: rgb(37, 37, 37);
+  border-radius: 4px;
+  padding: 2rem;
+}
+
+li {
+  list-style-type: none;
+  padding-top: 10px;
+}
+
+footer {
+  padding: 3rem 0;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+}
+
+footer h3 {
+  font-size: 25px;
+  font-weight: lighter;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.info {
+  display: flex;
+  gap: 2rem;
+}
+
+.social-media {
+  display: flex;
+  gap: 2rem;
+}
+
+.icon-circle{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid rgb(232, 231, 248);
+  padding: 12.5px;
+}
+
+.fa-instagram, .fa-linkedin, .fa-github{
+  font-size: 1.5rem;
+  color: white;
+}
+
+.projects img {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  object-fit: contain;
+}
+
+.icon-circle:hover {
+  cursor: pointer;
+  background-color: #ebebeb2c;
+}
+
